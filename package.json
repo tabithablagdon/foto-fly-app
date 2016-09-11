@@ -1,0 +1,38 @@
+{
+  "name": "fotofly",
+  "version": "1.0.0",
+  "description": "fotofly displays a gallery of user photos",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/server.js --exec babel-node --presets es2015",
+    "compile": "webpack --watch"
+  },
+  "author": "Tabitha Blagdon (tabitha.blagdon@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-loader": "6.2.5",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.14.0",
+    "dotenv": "2.0.0",
+    "jasmine": "^2.5.1",
+    "jshint": "2.9.3",
+    "jshint-loader": "0.8.3",
+    "nodemon": "^1.10.2",
+    "webpack": "1.13.2"
+  },
+  "engines": {
+    "node": "6.2.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
