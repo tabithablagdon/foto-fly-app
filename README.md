@@ -1,6 +1,18 @@
 # FotoFly
 
-> FotoFly is an online photo gallery
+> FotoFly is an online photo gallery.  User can upload photos and click/drag the photo to reposition it in the gallery.
+
+## Tech Stack
+
+1. Node/Express
+1. PostgreSql (Coming soon)
+1. JavaScript (Purposely built with plain, vanilla JavaScript on the front-end)
+
+## Features To Add
+
+1. Upload photo functionality
+1. Authentication
+1. Database
 
 ## Table of Contents
 
@@ -8,9 +20,6 @@
 1. [Requirements](#requirements)
 1. [Development](#development)
     1. [Installing Dependencies](#installing-dependencies)
-    1. [Tasks](#tasks)
-1. [Team](#team)
-1. [Contributing](#contributing)
 
 ## Usage
 
