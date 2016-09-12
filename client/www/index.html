@@ -3,11 +3,42 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="client/assets/styles/style.css">
-    <title>FotFly | Online Photo Gallery</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>FotoFly | Online Photo Gallery</title>
   </head>
-  <body>
-    <h1>Welcome to FotoFly</h1>
+  <body class="container-fluid">
 
+    <!-- [Start Page Header] -->
+    <header role="banner">
+      <nav role="navigation" class="nav-main">
+        <span class="logo">FotoFly</span>
+        <ul>
+          <li><a href="#">My Gallery</a></li>
+          <li><a href="#">Upload Photos </a><span class="label label-info">Coming Soon</span></li>
+          <li><a href="#">My Account</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- [Start Main Content - Photo Gallery] -->
+    <main class="container-fluid">
+      <h2>My Gallery</h2>
+      <h4>Click to drag and re-position photos</h4>
+      <div class="row center" id="gallery">
+
+      </div>
+
+      <footer role="contentinfo">
+        <small>Coded by <a href="http://www.github.com/tabithablagdon">Tabitha Blagdon</a></small>
+      </footer>
+
+    </main>
+
+
+    <!-- [Start Scripts] -->
     <script src="client/js/bundle.js"></script>
+    <script src="node_modules/underscore/underscore.js"></script>
+    <script src="client/js/main.js"></script>
+
   </body>
 </html>
