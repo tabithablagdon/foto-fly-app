@@ -2,7 +2,7 @@
 
 > FotoFly is an online photo gallery.  User can upload photos and click/drag the photo to reposition it in the gallery.
 
-![fotoFly]('client/assets/img/fotofly-screenshot.png')
+![fotoFly](client/assets/img/fotofly-screenshot.png)
 
 ## Tech Stack
 
